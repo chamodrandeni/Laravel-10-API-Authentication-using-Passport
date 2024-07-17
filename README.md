@@ -5,8 +5,6 @@ This repository demonstrates how to set up API authentication using Laravel Pass
 Table of Contents
 Installation
 Configuration
-Usage
-Endpoints
 
 Installation
 Follow these steps to set up the project:
@@ -52,22 +50,3 @@ Configuration
           'provider' => 'users',
       ],
   ],
-  
-Usage
-Register a new user:
-
-POST /api/register
-Log in to obtain an access token:
-
-POST /api/login
-Use the access token to authenticate requests to your API:
-
-GET /api/user
-Include the access token in the Authorization header as a Bearer token.
-
-Endpoints
-
-POST /api/register - Register a new user
-POST /api/login - Log in and obtain an access token
-POST /api/logout - Log out the authenticated user
-GET /api/user - Retrieve the authenticated user’s information
