@@ -25,7 +25,7 @@ This project provides a ready-to-use Laravel 10 application with API authenticat
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/<your-github-username>/Laravel-10-API-Authentication-using-Passport.git
+    git clone https://github.com/chamodrandeni/Laravel-10-API-Authentication-using-Passport.git
     cd Laravel-10-API-Authentication-using-Passport/docker-for-Laravel
     ```
 
